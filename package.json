@@ -1,0 +1,12 @@
+{
+    "name": "group-course-work",
+    "version": "1.0.0",
+    "description": "",
+    "main": "nodemon app.js",
+    "scripts": {},
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
