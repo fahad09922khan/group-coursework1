@@ -9,9 +9,9 @@ const lessons = [
     { 'topic': 'Music', 'location': 'golders green', 'price': 120 },
 ];
 api.get("/lessons", (req, res) => {
-  //   res.send("This is the lessons page");
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.send(lessons);
+    //   res.send("This is the lessons page");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.send(lessons);
 });
 
 const users = {
@@ -20,8 +20,8 @@ const users = {
 };
 
 api.get("/users", (req, res) => {
-  //   res.send("This is the users api");
-  res.send(users);
+    //   res.send("This is the users api");
+    res.send(users);
 });
 
 module.exports = api;
