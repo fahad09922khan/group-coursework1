@@ -5,7 +5,7 @@ const api = express.Router();
 const lessons = [
     { 'topic': 'Arts and Craft', 'location': 'hendon', 'price': 100 },
     { 'topic': 'Coding', 'location': 'colindale', 'price': 80 },
-    { 'topic': 'Games and Fun', 'location': 'brent cross', 'price': 90 },
+    { 'topic': 'Games and Fun', 'location': 'brentcross', 'price': 90 },
     { 'topic': 'Music', 'location': 'golders green', 'price': 120 },
 ];
 api.get("/lessons", (req, res) => {
